@@ -13,7 +13,7 @@ jobs:
       matrix:
         build_env:
           - tag: "25.12.6"
-            pkgarch: mips
+            pkgarch: mips_24kc
             target: ath79
             subtarget: generic
             vermagic: "7f15b2e770f44b07009c08f8e8971baf"
